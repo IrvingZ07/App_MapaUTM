@@ -1,0 +1,30 @@
+name: utm_orienta
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  geolocator: ^13.0.1  # Para obtener la posición GPS
+  latlong2: ^0.9.1     # Para cálculos matemáticos de coordenadas
+  flutter_map: ^8.2.2
+  sensors_plus: ^5.0.1  
+  flame: ^1.18.0
+  flame_audio: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/mapa/
+    - assets/images/pois/
